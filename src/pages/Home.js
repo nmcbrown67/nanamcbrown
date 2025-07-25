@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
-import testImage from "../images/test-removebg-preview.png";
+import testImage from "../test.png";
 
 function Home() {
     return (
