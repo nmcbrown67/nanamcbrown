@@ -35,9 +35,9 @@ function About() {
                    explore the potential use of blockchain technology in
                     tracking and verifying the authenticity of environmental corporate 
                     initiatives, ensuring that companies
-                    can be help accountable to genuinely contribute to sustainability. </p>
+                    can be held accountable in their commitment to sustainability. </p>
             <div className="about-divider"></div>
-            <h3>Why a minor in French?</h3>
+            <h3>Why a Minor in French?</h3>
             <p> Just as much as I love technology, I'm equally passionate about literature and 
                 social studies. With this interdisciplinary mindset, I'm a big believer that to create 
                 good technology one should always be looking to answer the question,
