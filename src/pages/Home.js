@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./Home.css";
+import testImage from "../images/test-removebg-preview.png";
 
 function Home() {
     return (
@@ -7,7 +8,7 @@ function Home() {
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src={`${process.env.PUBLIC_URL}/images/test.png`}
+                        src={testImage}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
