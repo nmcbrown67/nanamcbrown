@@ -7,7 +7,7 @@ function Home() {
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src="/images/test-removebg-preview.png" 
+                        src="/images/test.png" 
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
