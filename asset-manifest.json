@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nanamcbrown/static/css/main.b70c9cc3.css",
+    "main.js": "/nanamcbrown/static/js/main.62f2d9c6.js",
+    "static/js/453.74ef4d09.chunk.js": "/nanamcbrown/static/js/453.74ef4d09.chunk.js",
+    "index.html": "/nanamcbrown/index.html",
+    "main.b70c9cc3.css.map": "/nanamcbrown/static/css/main.b70c9cc3.css.map",
+    "main.62f2d9c6.js.map": "/nanamcbrown/static/js/main.62f2d9c6.js.map",
+    "453.74ef4d09.chunk.js.map": "/nanamcbrown/static/js/453.74ef4d09.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b70c9cc3.css",
+    "static/js/main.62f2d9c6.js"
+  ]
+}
