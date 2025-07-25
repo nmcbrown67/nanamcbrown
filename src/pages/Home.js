@@ -7,7 +7,7 @@ function Home() {
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src="/images/test.png" 
+                        src={`${process.env.PUBLIC_URL}/images/test.png`}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
