@@ -15,6 +15,7 @@ body {
   text-size-adjust: 100%;
   /* Prevent horizontal scrolling */
   overflow-x: hidden;
+  background: linear-gradient(to right, #fff2cc, #FFB6C1);
 }
 
 code {

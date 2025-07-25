@@ -17,7 +17,9 @@ function Home() {
                 </div>
                 <div className="text-section">
                     <h1 className="main-title">Hi I'm Nana, Welcome to my little corner of the internet!</h1>
-                    <button className="cta-button">Get Started</button>
+                    <a class="button-link" href="/Resume">
+                        <button className="cta-button">Get Started</button>
+                    </a>
                 </div>
             </div>
         </div>

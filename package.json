@@ -2,6 +2,10 @@
   "name": "schoolme",
   "version": "0.1.0",
   "private": true,
+  "resolutions": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

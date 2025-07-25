@@ -11,6 +11,7 @@
 }
 
 .home-content {
+    margin-top: 32px;
     display: flex;
     align-items: center;
     max-width: 1200px;
@@ -27,7 +28,7 @@
 .image-section {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: center;
     padding: 40px;
     background: transparent;
@@ -35,14 +36,13 @@
 }
 
 .hero-image {
-    width: 60%;
+    width: 70%;
     height: 0%;
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     /* Prevent image overflow */
-    /* object-fit: cover;
-    background-image: transparent; */
+    object-fit: cover; 
+    background-image: transparent; 
 }
 
 .hero-image:hover {
@@ -82,6 +82,12 @@
     overflow-wrap: break-word;
 }
 
+.button-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cta-button {
     background: lightblue;
     color: white;

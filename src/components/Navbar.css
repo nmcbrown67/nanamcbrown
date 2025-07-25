@@ -1,9 +1,10 @@
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
     background: linear-gradient(to right, #fff2cc, #FFB6C1);
+    /* margin-bottom: 10%; */
 }
 
 .navbar_links {
@@ -20,6 +21,7 @@
     text-decoration: none;
     color: white;
     font-weight: 600;
+    font-size: 18px;
     padding: 8px 16px;
     border-radius: 20px;
     transition: all 0.3s ease;

@@ -1,0 +1,164 @@
+.resume-container {
+  min-height: calc(100vh - 70px); /* match NAVBAR_HEIGHT */
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to right, #fff2cc, #FFB6C1);
+  padding: 20px;
+  width: 100%;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.resume-content {
+  margin-top: 32px;
+  /* Remove margin-top so it sits at the top */
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  max-width: 700px;
+  width: 100%;
+  max-height: 100%;
+  overflow-y: auto;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: #b8860b;
+
+  font-family: "Sans-serif", "Verdana";
+}
+
+.resume-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 30px;
+  background: linear-gradient(to right, #FFCAD2, #FFD09D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.experience-chart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.experience-card {
+  background: #fff2cc;
+  border-left: 6px solid #FFB6C1;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(255,182,193,0.10);
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.2s;
+  position: relative;
+}
+.experience-card:hover {
+  box-shadow: 0 8px 32px rgba(255,182,193,0.18);
+  background: #ffe6f0;
+}
+
+.exp-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.exp-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e75480;
+}
+.exp-company {
+  font-size: 1rem;
+  color: #b8860b;
+  font-weight: 600;
+}
+.exp-time {
+  font-size: 1rem;
+  color: #FFA07A;
+  margin-bottom: 8px;
+  font-weight: 505;
+}
+.exp-desc {
+  font-size: 1.05rem;
+  color: #444;
+  margin-top: 2px;
+  font-weight: 440;
+}
+
+.exp-desc li, .taught {
+    margin-bottom: 12px; /* or whatever spacing you like */
+    line-height: 1.7;
+  }
+
+
+.mini-navbar {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+.mini-tab {
+  background: #fff2cc;
+  border: none;
+  border-radius: 16px 16px 0 0;
+  padding: 10px 24px;
+  font-weight: 600;
+  color: #e75480;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  font-size: 1.1rem;
+  outline: none;
+}
+.mini-tab.active, .mini-tab:hover {
+  background: #FFB6C1;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .resume-content {
+    padding: 25px 10px;
+    max-width: 98vw;
+  }
+  .resume-title {
+    font-size: 2rem;
+  }
+  .experience-card {
+    padding: 18px 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-content {
+    padding: 10px 2px;
+  }
+  .resume-title {
+    font-size: 1.5rem;
+  }
+  .experience-card {
+    padding: 12px 6px;
+    border-radius: 10px;
+  }
+  .exp-title {
+    font-size: 1rem;
+  }
+  .exp-company {
+    font-size: 0.95rem;
+  }
+  .exp-desc {
+    font-size: 0.98rem;
+  }
+} 
