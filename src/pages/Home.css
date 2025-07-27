@@ -31,7 +31,6 @@
     align-items: left;
     justify-content: center;
     padding: 40px;
-    background: transparent;
     min-height: 300px;
 }
 
@@ -42,7 +41,6 @@
     transition: transform 0.3s ease;
     /* Prevent image overflow */
     object-fit: cover; 
-    background-image: transparent; 
 }
 
 .hero-image:hover {
