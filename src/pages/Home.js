@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Home.css";
-import testImage from "../test.png";
 
 function Home() {
     return (
@@ -8,7 +7,7 @@ function Home() {
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src={testImage}
+                        src={`images/selfie.JPG`}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {

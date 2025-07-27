@@ -33,8 +33,7 @@ function About() {
                    on indigenous knowledge and climate change solutions! For
                    my final project, I tied in my CS background to 
                    explore the potential use of blockchain technology in
-                    tracking and verifying the authenticity of environmental corporate 
-                    initiatives, ensuring that companies
+                    tracking and verifying the authenticity of environmental nitiatives, ensuring that companies
                     can be held accountable in their commitment to sustainability. </p>
             <div className="about-divider"></div>
             <h3>Why a Minor in French?</h3>

@@ -44,9 +44,9 @@ const experienceCategories = [
             time: 'Feb 2024 - May 2025',
             description: [
               `Developed data visualizations and interactive elements using Typescript, React, 
-              and D3.js to enhance digital storytelling on the Harvard Crimson’s online newspaper; a 
+              and D3.js, enhancing digital storytelling on the Harvard Crimson’s online newspaper; a 
               source that caters to an audience of over 21 million page viewers`,
-              'Review code, debug issues, and maintain the codebase for the full-stack development team'
+              'Reviewed code, debuged issues, and maintained the codebase for the full-stack development team'
             ],
             taught: 'Aside from hackathons, this was my first real work opportunity to apply my programming knowledge to real-world deliverables. To apply for this role, I had just under a week and a half to quickly teach myself React, Git, and Typescript to create an assigned interactive website. While at the time daunting, this experience made me realize just how much I enjoy learning through hands-on practice. Since then, the role has provided me with an incredible insight into the process of collaborating with others on deliverables. Additionally, my position on the graphics team gave me the creative freedom to experiment with visual storytelling and user interactivity.'
             },
@@ -85,7 +85,16 @@ const experienceCategories = [
              simple engineering projects`,
             `Mediated conflicts, supported emotional well-being, and encouraged 
             collaboration and problem solving skills among campers`
-        ]
+        ],
+        taught: `I got my start in technology thanks to a teacher who went out
+         of her way to inspire and share her knowledge with young learners.
+          That experience left a lasting impact on me, and I’ve been committed
+           to doing the same for others ever since. Over the years, 
+           I’ve informally taught coding to young learners, often through referrals
+            from parents and teachers who hired me to work with their children. 
+            My experience at Camp Invention allowed me to continue this work in a 
+            more structured setting, helping me refine my ability to design workshops 
+            and develop organized and engaging classroom plans. `
       }
     ]
   }
