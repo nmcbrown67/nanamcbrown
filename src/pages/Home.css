@@ -36,7 +36,7 @@
 
 .hero-image {
     width: 70%;
-    height: 0%;
+    height: auto;
     border-radius: 15px;
     transition: transform 0.3s ease;
     /* Prevent image overflow */
