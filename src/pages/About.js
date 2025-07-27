@@ -33,8 +33,8 @@ function About() {
                    on indigenous knowledge and climate change solutions! For
                    my final project, I tied in my CS background to 
                    explore the potential use of blockchain technology in
-                    tracking and verifying the authenticity of environmental nitiatives, ensuring that companies
-                    can be held accountable in their commitment to sustainability. </p>
+                    tracking and verifying the authenticity of environmental initiatives, ensuring that companies
+                    can be held accountable to their commitment to sustainability. </p>
             <div className="about-divider"></div>
             <h3>Why a Minor in French?</h3>
             <p> Just as much as I love technology, I'm equally passionate about literature and 
@@ -42,9 +42,9 @@ function About() {
                 good technology one should always be looking to answer the question,
                 "what issue is this solving in our society?" So in addition to my 
                 background in software and engineering, I've spent the past 7 years studying Francophone
-                literature and culture which has led to my fluency in French. In the future,
-                I hope to have a role that would allow me to also work between French and American markets
-                and use my fluency in a professional setting.
+                literature and culture. This has led to my language fluency in French. In the future,
+                I hope to have a role that would allow me to work between French and American markets,
+                putting my fluency to use in a professional setting.
             </p>
         </div>
     );
