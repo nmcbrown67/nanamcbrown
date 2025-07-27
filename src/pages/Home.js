@@ -1,13 +1,14 @@
 import { useState } from "react";
 import "./Home.css";
+import testImage from "../images/test.png";
 
 function Home() {
-    return ( 
+    return (
         <div className="home-container">
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src={`/images/test-removebg-preview.png`}
+                        src={testImage}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
