@@ -4,7 +4,11 @@
     left: 0;
     right: 0;
     background: linear-gradient(to right, #fff2cc, #FFB6C1);
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; 
     /* margin-bottom: 10%; */
+    padding-right: 3%;
 }
 
 .navbar_links {
