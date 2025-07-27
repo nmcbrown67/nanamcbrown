@@ -7,7 +7,7 @@ function Home() {
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src={`images/selfie.JPG`}
+                        src={`https://nanamcbrown.vercel.app/images/selfie.JPG`}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
