@@ -2,12 +2,12 @@ import { useState } from "react";
 import "./Home.css";
 
 function Home() {
-    return (
+    return ( 
         <div className="home-container">
             <div className="home-content">
                 <div className="image-section">
                     <img 
-                        src={`https://nanamcbrown.vercel.app/images/selfie.JPG`}
+                        src={`https://nanamcbrown.vercel.app/public/images/selfie.JPG`}
                         alt="Nana McBrown" 
                         className="hero-image"
                         onError={(e) => {
